@@ -6,17 +6,5 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: 62.5%;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  a {
-    text-decoration: none;
-  }
-  ul {
-    list-style: none;
-  }
-}
+@import "./song";
+@import "./player";

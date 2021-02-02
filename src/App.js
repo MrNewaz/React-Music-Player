@@ -6,7 +6,7 @@ import Song from "./components/Song";
 import Library from "./components/Library";
 import Nav from "./components/Nav";
 //Import Utill
-import data from "./util";
+import data from "./data";
 import { useState, useRef } from "react";
 
 function App() {
@@ -37,6 +37,9 @@ function App() {
         currentSong={currentSong}
         songInfo={songInfo}
         setSongInfo={setSongInfo}
+        songs={songs}
+        setCurrentSong={setCurrentSong}
+        setSongs={setSongs}
       />
       <Library
         audioRef={audioRef}

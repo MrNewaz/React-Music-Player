@@ -39,6 +39,11 @@ input[type="range"]::-webkit-slider-thumb {
   height: 1rem;
   width: 1rem;
 }
+input[type="range"]::-moz-range-thumb {
+  -webkit-appearance: none;
+  height: 1rem;
+  width: 1rem;
+}
 
 .track {
   background: lightblue;
@@ -58,4 +63,13 @@ input[type="range"]::-webkit-slider-thumb {
   left: 0;
   transform: translateX(0%);
   pointer-events: none;
+}
+
+@media screen and (max-width: 768px) {
+  .time-control {
+    width: 90%;
+  }
+  .play-control {
+    width: 60%;
+  }
 }

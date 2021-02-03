@@ -1,11 +1,15 @@
+$text: #191919;
+$back: #ffffff;
+
 .library {
   position: fixed;
-  background: white;
+  background: $back;
+  color: $text;
   top: 0;
   left: 0;
   width: 20rem;
   height: 100%;
-  box-shadow: 2px 2px 50px rgb(204, 204, 204);
+  //box-shadow: 2px 2px 20px#ffffff5b;
   overflow-y: scroll;
   transform: translateX(-100%);
   transition: all 0.5s ease-in-out;
@@ -16,6 +20,7 @@
 }
 
 .library-song {
+  color: $text;
   display: flex;
   align-items: center;
   padding: 1rem 2rem 1rem 2rem;
@@ -28,12 +33,19 @@
     background: rgb(201, 224, 255);
   }
 }
+h2 {
+  color: $text;
+}
 .song-description {
   padding-left: 1rem;
+  color: $text;
+
   h3 {
+    color: $text;
     font-size: 1rem;
   }
   h4 {
+    color: $text;
     font-size: 0.7rem;
   }
 }
@@ -49,7 +61,7 @@
   background: transparent;
 }
 *::-webkit-scrollbar-thumb {
-  background-color: rgba(155, 155, 155, 0.5);
+  background-color: #ffffff;
   border-radius: 20px;
   border: transparent;
 }

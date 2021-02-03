@@ -1,4 +1,6 @@
 /* Global Style */
+$text: #ffffff;
+$back: #191919;
 
 * {
   margin: 0;
@@ -7,18 +9,20 @@
 }
 body {
   font-family: "Lato", sans-serif;
+  background: $back;
+  color: $text;
 }
 
 h1,
 h2,
 h3 {
-  color: rgb(54, 54, 54);
+  color: $text;
 }
 
 h3,
 h4 {
   font-weight: 400;
-  color: rgb(100, 100, 100);
+  color: $text;
 }
 
 .App {

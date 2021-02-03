@@ -1,3 +1,6 @@
+$text: #ffffff;
+$back: #191919;
+
 nav {
   display: flex;
 
@@ -6,15 +9,16 @@ nav {
 
   min-height: 10vh;
   button {
+    color: $text;
     background: transparent;
     border: none;
     cursor: pointer;
-    border: 2px solid rgb(66, 66, 66);
+    border: 2px solid $text;
     padding: 0.5rem;
     transition: all 0.3s ease-in-out;
     &:hover {
-      background: rgb(66, 66, 66);
-      color: white;
+      background: $text;
+      color: $back;
     }
   }
 }

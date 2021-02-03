@@ -5,7 +5,7 @@ const Nav = ({ libraryStatus, setLibraryStatus }) => {
   return (
     <nav>
       <h1>
-        <img src="/saif.svg" />
+        <img src="/saif.svg" alt="logo" />
         &nbsp;NEWAZ
       </h1>
       <button onClick={() => setLibraryStatus(!libraryStatus)}>

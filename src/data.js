@@ -10,7 +10,7 @@ function chillHop() {
       id: uuidv4(),
       color: ["#801B21", "#F6E89B"],
       audio: "https://sumirbd.mobi/files/download/id/70272",
-      active: false,
+      active: true,
     },
     {
       name: "Smile",
@@ -30,7 +30,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
       color: ["#205950", "#2ab3bf"],
       id: uuidv4(),
-      active: true,
+      active: false,
     },
     {
       name: "Daylight",
